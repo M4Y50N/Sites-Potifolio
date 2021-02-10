@@ -1,0 +1,27 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	font-family: "Anton", sans-serif;
+}
+
+.iframe-sites {
+	height: 500px;
+	border: 2.3px solid #17181a;
+	box-shadow: 0px 0px 4px 0px rgba(73, 73, 69, 0.521);
+	background-position: top;
+	transition: background-position 5s step-start, border 1s ease-in-out;
+}
+
+#site-01 {
+	background-image: url("../img/site01.png");
+	background-size: cover;
+}
+
+.iframe-sites:hover {
+	transition: background-position 5s ease-in-out, border 1s ease-in-out;
+	background-position: bottom;
+	border: 2.3px solid #8b8a8ab6;
+	cursor: pointer;
+}
