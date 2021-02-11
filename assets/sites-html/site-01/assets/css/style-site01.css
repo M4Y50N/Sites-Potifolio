@@ -1,8 +1,211 @@
+@keyframes pisca {
+	0% {
+		opacity: 0.2;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0.2;
+	}
+}
+
 html,
 body {
 	height: 100%;
 	width: 100%;
+	padding: 0;
+	margin: 0;
 	overflow: hidden;
 }
 
-.logo-text {
+.main {
+	height: 100%;
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.urna {
+	background-color: rgb(159, 177, 171);
+	height: 90%;
+	width: 85%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.tela {
+	background: linear-gradient(to right, rgb(243, 241, 241), rgb(207, 199, 199));
+	border: 3px double black;
+	display: flex;
+	flex-direction: column;
+	height: 75%;
+	width: 53%;
+}
+
+.div-1 {
+	display: flex;
+	flex: 1;
+}
+
+.div-1-left {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	padding-left: 20px;
+}
+
+.div-1-1 {
+	height: 70px;
+	display: flex;
+	align-items: center;
+}
+
+.div-1-2 {
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.div-1-3 {
+	height: 50px;
+}
+
+.numero {
+	display: inline-block;
+	width: 30px;
+	height: 40px;
+	border: 1px solid #000;
+	text-align: center;
+	line-height: 40px;
+	font-size: 23px;
+}
+
+.pisca {
+	animation-name: pisca;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+.div-1-4 {
+	flex: 1;
+	line-height: 30px;
+}
+
+.div-1-right {
+	width: 123px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.div-1-image {
+	border: 1px solid #000;
+	background-color: #fff;
+	text-align: center;
+}
+
+.div-1-image img {
+	width: 100%;
+}
+
+.div-1-image.small {
+	width: 80%;
+	font-size: 15px;
+}
+
+.div-2 {
+	height: 80px;
+	font-size: 17px;
+	border-top: 2px solid #000;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+.teclado {
+	background-color: rgb(29, 29, 29);
+	height: 75%;
+	width: 37%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	/* text-align: center; */
+}
+
+.tecla-linha {
+	display: flex;
+	justify-content: center;
+}
+
+.tecla {
+	background-color: #333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 65px;
+	margin: 7px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 33px;
+	margin-bottom: 3px;
+	cursor: pointer;
+	box-shadow: 4px 4px 0px rgb(19, 18, 18);
+	border-radius: 3px;
+}
+
+.tecla:hover {
+	background-color: #555;
+	box-shadow: 4px 4px 0px rgb(39, 39, 39);
+}
+
+.teclas-log {
+	display: flex;
+	align-items: flex-end;
+}
+
+.tecla-log {
+	font-size: 20px;
+}
+
+.branco {
+	width: 107px;
+	height: 66px;
+	color: black;
+	background-color: white;
+	box-shadow: 4px 4px 0px rgb(49, 46, 46);
+}
+
+.branco:hover {
+	background-color: rgb(187, 184, 184);
+	box-shadow: 4px 4px 0px rgb(73, 73, 73);
+}
+
+.corrige {
+	width: 107px;
+	height: 66px;
+	background-color: rgb(240, 182, 74);
+	box-shadow: 4px 4px 0px rgb(70, 49, 10);
+}
+
+.corrige:hover {
+	background-color: rgb(238, 172, 50);
+	box-shadow: 4px 4px 0px rgb(100, 73, 21);
+}
+
+.confirma {
+	width: 130px;
+	height: 80px;
+	background-color: rgb(78, 238, 78);
+	box-shadow: 3px 3px 0px rgb(28, 75, 15);
+}
+
+.confirma:hover {
+	background-color: rgb(59, 202, 59);
+	box-shadow: 3px 3px 0px rgb(46, 99, 32);
+}
