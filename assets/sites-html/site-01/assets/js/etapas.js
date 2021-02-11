@@ -20,6 +20,43 @@ const etapas = [
 	{
 		titulo: "PREFEITO",
 		numeros: 2,
-		candidatos: [{}],
+		candidatos: [
+			{
+				numero: 99,
+				nome: "Ciclano",
+				partido: "ABC",
+				vice: "Cic",
+				fotos: [
+					{
+						url: "99.png",
+						legenda: "Prefeito",
+						small: false,
+					},
+					{
+						url: "99_2.png",
+						legenda: "Vice-Prefeito",
+						small: true,
+					},
+				],
+			},
+			{
+				numero: 84,
+				nome: "Zulano",
+				partido: "QWERT",
+				vice: "Zul",
+				fotos: [
+					{
+						url: "84.png",
+						legenda: "Prefeito",
+						small: false,
+					},
+					{
+						url: "84_2.png",
+						legenda: "Vice-Prefeito",
+						small: true,
+					},
+				],
+			},
+		],
 	},
 ];
