@@ -30,7 +30,7 @@ body {
 
 .urna {
 	background-color: rgb(159, 177, 171);
-	height: 90%;
+	height: 550px;
 	width: 85%;
 	display: flex;
 	align-items: center;
@@ -42,7 +42,7 @@ body {
 	border: 3px double black;
 	display: flex;
 	flex-direction: column;
-	height: 75%;
+	height: 77%;
 	width: 53%;
 }
 
@@ -128,7 +128,7 @@ body {
 
 .teclado {
 	background-color: rgb(29, 29, 29);
-	height: 75%;
+	height: 77%;
 	width: 37%;
 	display: flex;
 	align-items: center;
@@ -174,7 +174,7 @@ body {
 }
 
 .branco {
-	width: 107px;
+	width: 102px;
 	height: 66px;
 	color: black;
 	background-color: white;
@@ -187,7 +187,7 @@ body {
 }
 
 .corrige {
-	width: 107px;
+	width: 102px;
 	height: 66px;
 	background-color: rgb(240, 182, 74);
 	box-shadow: 4px 4px 0px rgb(70, 49, 10);
@@ -199,7 +199,7 @@ body {
 }
 
 .confirma {
-	width: 130px;
+	width: 125px;
 	height: 80px;
 	background-color: rgb(78, 238, 78);
 	box-shadow: 3px 3px 0px rgb(28, 75, 15);
@@ -208,4 +208,19 @@ body {
 .confirma:hover {
 	background-color: rgb(59, 202, 59);
 	box-shadow: 3px 3px 0px rgb(46, 99, 32);
+}
+
+.aviso-grande {
+	margin-top: 13px;
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+.aviso-gigante {
+	font-size: 70px;
+	font-weight: bolder;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
