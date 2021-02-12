@@ -4,11 +4,13 @@ body {
 	margin: 0px;
 	height: 100%;
 	width: 100%;
-	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-family: "Times New Roman", Times, serif;
 }
 
 .header {
 	background-color: #1f1f1f;
+	color: rgb(223, 219, 219);
+	font-size: 20px;
 }
 
 .header-container {
@@ -77,4 +79,51 @@ body {
 	font-size: 20px;
 	width: 200px;
 	height: 50px;
+}
+
+.services {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 50px;
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+.services button {
+	border-radius: 30px;
+	outline: none;
+	border: none;
+	background-color: #373234;
+	color: aliceblue;
+	font-size: 17px;
+	width: 150px;
+	height: 50px;
+}
+
+.services h2 {
+	font-size: 47px;
+	font-weight: normal;
+	margin-bottom: 17px;
+}
+
+.services p {
+	width: 600px;
+}
+
+.services ul {
+	text-align: start;
+}
+
+.services ul li {
+	background-color: #f1f8fa;
+	margin: 3px;
+	padding: 10px;
+	list-style-type: none;
+}
+
+.services ul li::before {
+	content: "✓";
+	padding-right: 10px;
 }
