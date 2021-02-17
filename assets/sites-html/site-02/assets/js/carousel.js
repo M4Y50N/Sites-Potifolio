@@ -18,3 +18,17 @@ var swiper = new Swiper(".swiper-container", {
 });
 
 //Carousel-Testmonials
+var swiper2 = new Swiper(".swiper-container-testimonials", {
+	slidesPerView: 2,
+	spaceBetween: 30,
+	grabCursor: true,
+	loop: true,
+	autoplay: {
+		delay: 2500,
+		disableOnInteraction: false,
+	},
+	pagination: {
+		el: ".swiper-pagination",
+		clickable: true,
+	},
+});

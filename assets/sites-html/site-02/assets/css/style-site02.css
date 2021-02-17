@@ -262,3 +262,53 @@ body {
 	width: 200px;
 	border-radius: 50%;
 }
+
+.testimonials {
+	padding: 50px 220px 50px 220px;
+	background-color: #eaf5f9;
+	text-align: justify;
+	overflow: hidden;
+}
+
+.testimonials h2 {
+	font-size: 47px;
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 17px;
+}
+
+.testimonials p {
+	text-align: center;
+	margin-bottom: 53px;
+	color: #acd8f0;
+}
+
+/* carousel testimonials */
+.swiper-container-testimonials {
+	width: 100%;
+	height: 100%;
+}
+
+.testimonials-carousel {
+	overflow: hidden;
+}
+
+.carousel-testimonials-item {
+	padding-top: 30px;
+	padding-bottom: 40px;
+	margin-bottom: 100px;
+}
+
+.carousel-testimonials-item p {
+	width: 350px;
+	text-align: justify;
+	color: rgba(0, 0, 0, 0.61);
+}
+
+.testimonials-carousel-img {
+	height: 130px;
+	width: 130px;
+	border-radius: 50%;
+	position: absolute;
+	top: 90%;
+}
