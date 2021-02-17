@@ -38,12 +38,16 @@ body {
 }
 
 .slider-images {
-	background-image: url("../img/slider1.jpg");
-	background-size: cover;
+	background-image: url("../img/slider_1.jpg");
 	height: 700px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	scroll-behavior: smooth;
 }
 
 .container-content-slider {
@@ -52,17 +56,16 @@ body {
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
-
 	padding-left: 100px;
 }
 
 .container-content-slider h1 {
-	font-size: 60px;
+	font-size: 69px;
 	font-weight: 700;
 	margin: 0px;
 	margin-bottom: 30px;
 	padding: 0px;
-	background: linear-gradient(to right, #000000 0%, #330867 100%);
+	background: linear-gradient(to right, #000000 30%, #6b6565 50%, #e5d5d6 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -173,5 +176,89 @@ body {
 }
 
 .benefits {
-	height: 700px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 50px;
+	background-color: rgb(255, 255, 255);
+	text-align: justify;
+	overflow: hidden;
+}
+
+.benefits h2 {
+	font-size: 47px;
+	font-weight: normal;
+	margin-bottom: 17px;
+}
+
+.benefits p {
+	margin-bottom: 53px;
+}
+
+/* carousel benefits */
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+:root {
+	--swiper-navigation-size: 10px;
+}
+
+.carousel-item {
+	width: 200px;
+}
+
+.container-btn {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn-carousel {
+	position: relative;
+	height: 50px;
+	width: 50px;
+	margin-right: 15px;
+	margin-left: 15px;
+	border-radius: 50%;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	color: white;
+	background-color: rgb(226, 148, 148);
+}
+
+.btn-carousel:hover {
+	background-color: rgb(34, 33, 33);
+	color: white;
+}
+
+.benefits-carousel-img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
 }
