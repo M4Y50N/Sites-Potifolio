@@ -28,7 +28,7 @@ var swiper2 = new Swiper(".swiper-container-testimonials", {
 		disableOnInteraction: false,
 	},
 	pagination: {
-		el: ".swiper-pagination",
+		el: ".swiper-pagination-testimonials",
 		clickable: true,
 	},
 });
