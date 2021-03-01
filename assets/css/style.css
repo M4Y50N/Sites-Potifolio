@@ -19,6 +19,11 @@ body {
 	background-size: cover;
 }
 
+#site-02 {
+	background-image: url("../img/site02.png");
+	background-size: cover;
+}
+
 .iframe-sites:hover {
 	transition: background-position 5s ease-in-out, border 1s ease-in-out;
 	background-position: bottom;
