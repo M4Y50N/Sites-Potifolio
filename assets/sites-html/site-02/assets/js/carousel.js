@@ -1,7 +1,7 @@
 // Carousel-Benefits
 var swiper = new Swiper(".swiper-container", {
 	slidesPerView: 4,
-	spaceBetween: 30,
+	spaceBetween: 23,
 	loop: true,
 	autoplay: {
 		delay: 2500,
