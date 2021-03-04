@@ -13,7 +13,8 @@ section {
 .banner {
 	position: relative;
 	min-height: 100vh;
-	background: url(../img/banner.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)),
+		url(../img/banner.jpg);
 	background-size: cover;
 	background-position: right;
 	display: flex;
@@ -25,6 +26,7 @@ section {
 	font-size: 3em;
 	font-weight: 500;
 	line-height: 1.5em;
+	color: rgb(241, 241, 241);
 }
 
 .banner h2 span {
@@ -35,6 +37,7 @@ section {
 .banner h3 {
 	font-size: 1.5em;
 	font-weight: 500;
+	color: rgb(219, 217, 217);
 }
 
 .btn {
