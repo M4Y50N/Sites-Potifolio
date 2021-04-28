@@ -1,0 +1,16 @@
+$font: "Poppins", sans-serif;
+$primary-color-first: #e0040b;
+
+//fuck you bitch
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: $font;
+	color: $primary-color-first;
+	// padding-left: 12px;
+}
+
+header {
+	transform: rotateY(30deg);
+}

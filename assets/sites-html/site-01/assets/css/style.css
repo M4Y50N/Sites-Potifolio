@@ -1,79 +1,11 @@
 * {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
-	color: white;
 	font-family: "Poppins", sans-serif;
+	color: #e0040b;
 }
 
-.main {
-	width: 100vw;
-	height: 100vh;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-		url(../img/pexels-luis-gomes-546819.jpg);
-	background-position: center;
-	background-size: cover;
-	position: relative;
-
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
-
-i {
-	font-size: 13rem;
-}
-
-.fa-css3 {
-	position: absolute;
-	left: 180px;
-	bottom: 200px;
-	color: rgb(86, 86, 206);
-	transform: rotateZ(-9deg);
-}
-
-.fa-html5 {
-	position: absolute;
-	top: 120px;
-	right: 180px;
-	color: rgb(236, 105, 17);
-	transform: rotateZ(-5deg);
-}
-
-.fa-js {
-	position: absolute;
-	bottom: 50px;
-	right: 220px;
-	color: rgb(250, 225, 0);
-	transform: rotateZ(9deg);
-}
-
-h1 {
-	font-size: 6rem;
-	color: rgba(250, 225, 0, 0.582);
-	font-weight: 700;
-	letter-spacing: 5px;
-	text-align: center;
-	margin-bottom: 30px;
-}
-
-h2 {
-	font-size: 3.7rem;
-	font-weight: 600;
-	letter-spacing: 3px;
-	text-align: center;
-	transform: rotateZ(7deg);
-	color: rgb(211, 211, 221);
-}
-
-h2:last-child {
-	transform: rotateZ(-3deg);
-}
-
-p {
-	font-size: 4rem;
-	text-align: center;
-	color: rgb(211, 211, 221);
-	transform: rotateZ(-33deg);
+header {
+	transform: rotateY(30deg);
 }
