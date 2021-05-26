@@ -1,14 +1,22 @@
-const gulp = require("gulp"),
+var gulp = require("gulp"),
+	sass = require("gulp-sass"),
 	uglify = require("gulp-uglify"),
 	rename = require("gulp-rename"),
-	sourcemaps = require("gulp-sourcemaps"),
-	runSequence = require("run-sequence"),
-    plumber = require("gulp-plumber")
+	sourcemaps = require("gulp-sourcemaps");
 
-var onError = function(err){
-     console.log(err)
-}
+sass.compiler = require("node-sass");
 
-gulp.task("compress", () => {
-	return gulp.src("./script.js").pipe(uglify()).pipe(gulp.dest("dist"));
+var onError = function (err) {
+	console.log(err);
+};
+
+gulp.task("default", function () {
+	runSequence = "sass";
+});
+
+gulp.task("sass", function () {
+	return gulp
+		.src("../scss/*.scss")
+		.pipe(sass.sync().on("error", sass.logError))
+		.pipe(gulp.dest("../css"));
 });
