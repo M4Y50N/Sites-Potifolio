@@ -202,7 +202,19 @@ img {
 
 .work .content .contentWork {
 	width: 50%;
+	height: 560px;
+	margin-bottom: 20px;
 	padding: 20px;
+	overflow: hidden;
+
+	transition: all 0.3s;
+}
+
+.work .content .contentWork:hover {
+	transform: translateY(-5px);
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 15px 2px;
+	border-width: medium;
+	border-radius: 5px;
 }
 
 .work .content .contentWork img {
