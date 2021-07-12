@@ -212,6 +212,22 @@ button:hover {
     .features .feature-img .show {
       opacity: 1; }
 
+.hidden {
+  display: none; }
+
 .app-screenshots {
+  padding: 40px 7%;
   height: 100vh;
-  background-color: black; }
+  color: rgba(36, 36, 36, 0.733);
+  background-color: white;
+  overflow: hidden; }
+  .app-screenshots .head-content {
+    width: calc(100% - 700px);
+    margin: auto;
+    padding: 70px 0px 70px 0px;
+    text-align: center; }
+    .app-screenshots .head-content p {
+      margin-top: 20px;
+      font-size: 13.6px; }
+  .app-screenshots .splide .splide__track .splide__list .splide__slide img {
+    width: 200px; }

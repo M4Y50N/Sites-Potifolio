@@ -323,7 +323,40 @@ button:hover {
 	}
 }
 
+//hidden class
+.hidden {
+	display: none;
+}
+///////////////////
+
 .app-screenshots {
+	padding: 40px 7%;
 	height: 100vh;
-	background-color: black;
+	color: $color-gray;
+	background-color: white;
+	overflow: hidden;
+
+	.head-content {
+		width: calc(100% - 700px);
+		margin: auto;
+		padding: 70px 0px 70px 0px;
+		text-align: center;
+
+		p {
+			margin-top: 20px;
+			font-size: 13.6px;
+		}
+	}
+
+	.splide {
+		.splide__track {
+			.splide__list {
+				.splide__slide {
+					img {
+						width: 200px;
+					}
+				}
+			}
+		}
+	}
 }
