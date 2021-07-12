@@ -31,6 +31,11 @@ body {
 }
 
 header {
+	.no-resp {
+		color: red;
+		background-color: #f7f7f9;
+	}
+
 	nav {
 		color: white;
 		background-color: #2ccbd4;

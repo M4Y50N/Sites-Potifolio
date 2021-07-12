@@ -18,6 +18,10 @@ body::before {
   will-change: transform;
   z-index: -1; }
 
+header .no-resp {
+  color: red;
+  background-color: #f7f7f9; }
+
 header nav {
   color: white;
   background-color: #2ccbd4;
